@@ -26,4 +26,5 @@ model.add(layers.Dense(10, activation="softmax"))
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 model.fit(x_train, t_train, epochs=5, batch_size=64, validation_data=(x_test, t_test))
+
 model.save('mnist_model.keras')

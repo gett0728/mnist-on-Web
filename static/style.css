@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     display: flex;
     justify-content: center;
@@ -32,3 +33,43 @@ td, th {
     padding: 4px 8px;
     text-align: center;
 }
+=======
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+canvas {
+    border: 1px solid black;
+    background-color: white;
+    cursor: crosshair;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.element {
+    padding: 100px;
+    width: 200px;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    right: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+td, th {
+    border: 1px solid #999;
+    padding: 4px 8px;
+    text-align: center;
+}
+>>>>>>> a3db490 (initial commit)
